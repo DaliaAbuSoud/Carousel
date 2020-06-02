@@ -36,7 +36,6 @@
 .carousel-button {
     position: absolute;
     top: 50%;
-    height: 200px;
     transform: translateY(-50%);
     background-color: transparent;
     cursor: pointer;
