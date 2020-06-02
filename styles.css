@@ -1,0 +1,85 @@
+.carousel {
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.carousel-image {
+    position: relative;
+    width: 100%;
+    height: 740px;
+    object-fit: cover;
+}
+
+.carousel-trackcontainer {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-track {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.carousel-slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    height: 200px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.carousel-button-left {
+    left: 5px;
+    border-color: transparent;
+}
+
+.carousel-button-right {
+    right: 5px;
+    border-color: transparent;
+}
+
+.carousel-button img {
+    width: 50px;
+    border-color: transparent;
+}
+
+.carousel-nav {
+    background-color: rgba(250, 201, 182, 0.267);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.carousel-indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0 12px;
+}
+.carousel-indicator.current-slide {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    height: 200px;
+    color: goldenrod;
+}
